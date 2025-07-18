@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login & Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="card-container">
+      <!-- Login Form -->
+      <div class="card">
+        <h2>Login</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" name="username" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" name="password" class="input-box" required>
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+      </div>
+
+      <!-- Registration Form -->
+      <div class="card">
+        <h2>Register</h2>
+        <form action="#" method="POST">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first_name" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="mobile">Mobile Number</label>
+            <input type="tel" id="mobile" name="mobile" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="course">Course</label>
+            <input type="text" id="course" name="course" class="input-box" required>
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <textarea id="address" name="address" class="input-box" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn">Register</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
